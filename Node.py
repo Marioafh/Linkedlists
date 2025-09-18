@@ -3,6 +3,6 @@ class Node:
         self.data = data
         self.next = next  # referencia al siguiente nodo
 
-    def __repr__(self):
+    def __str__(self):
         return f"Node({self.data!r})"
     
